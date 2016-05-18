@@ -1,8 +1,10 @@
 This R script, allows you to scrape full reviews from the Trip Advisor website.
+It was tested on Ubuntu 64 bit, on other platforms the script should work too.
 Please check if you have the right/licenses to scrape data from Trip Advisor in your country/region.
-The script uses basically R and Rselenium.
-Download Rselenium as a standalone server and put it in your R working directory.
+The script uses basically R, phantomjs and selenium.
+Download selenium as a standalone server http://www.seleniumhq.org/download/ and put it in your R working directory.
+Download phantomjs http://phantomjs.org/download.html and put it in your R working directory.
 Get a csv file containing a list with the URL links of all the hotels you want to scrape. The column has to have the heading "link".
 
 The script is "as it is", I assume no responsibility on how you use it.
-More info on how to use the script will come shortly.
+
