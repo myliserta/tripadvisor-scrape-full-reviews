@@ -67,11 +67,11 @@ lp_th_rw <- c("")
     
     count <- c(1, 6)
     
-    for (c in count){
+    for (j in count){
       clickfulltext <- mybrowser$findElements(using = 'css selector', value='span.noQuotes')
 
-      if( length(clickfulltext) <= c )
-      {clickfulltext[[c]]$clickElement()}
+      if( length(clickfulltext) <= j )
+      {clickfulltext[[j]]$clickElement()}
       else {break}
       
       url2 <- mybrowser$getCurrentUrl()
